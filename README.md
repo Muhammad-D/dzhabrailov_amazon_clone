@@ -1,5 +1,9 @@
-# Starting PROJECT
+# Amazon Clone app
 
-## Available Scripts
+# Front-end: ReactJS
 
-1 houre 4 minuts
+# Back-end: Firebase
+
+# Handeling payments: Stripe
+
+link: https://dzhabrailov--clone.firebaseapp.com/
