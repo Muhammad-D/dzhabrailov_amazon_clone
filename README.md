@@ -6,4 +6,4 @@
 
 # Handeling payments: Stripe
 
-link: https://dzhabrailov--clone.firebaseapp.com/
+link: https://dzhabrailov--clone.web.app
