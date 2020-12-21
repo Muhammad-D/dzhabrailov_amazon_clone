@@ -13,12 +13,11 @@ import HomeIcon from "@material-ui/icons/Home";
 const Header = () => {
   const [burgerBtnDisplay, setBurgerBtnDisplay] = useState(false);
   const [burgerBtnAnimation, setBurgerBtnAnimation] = useState(false);
-  window.innffo = {
-    burgerBtnDisplay,
-    burgerBtnAnimation,
-  };
+
   const [{ basket, user }] = useStateValue();
+
   const classes = useStyles();
+
   const handleAuthentication = (e) => {
     if (user) auth.signOut();
   };
@@ -27,6 +26,7 @@ const Header = () => {
     setTimeout(() => {
       setState(state);
     }, ms);
+
   const handleMenuAnimation = (e) => {
     if (burgerBtnDisplay === false) {
       createDelay(setBurgerBtnDisplay, !burgerBtnDisplay);

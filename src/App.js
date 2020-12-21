@@ -19,7 +19,6 @@ const promise = loadStripe(
 
 function App() {
   const [state, dispatch] = useStateValue();
-  window.tsState = state;
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       console.log(`THE USER IS >>>`, authUser);

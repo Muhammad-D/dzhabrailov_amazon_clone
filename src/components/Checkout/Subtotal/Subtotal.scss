@@ -34,3 +34,10 @@
 .subtotal > p > strong {
   margin-left: 8px;
 }
+
+@media (max-width: 760px) {
+  .subtotal {
+    width: 85.5vw;
+    margin-left: 0;
+  }
+}

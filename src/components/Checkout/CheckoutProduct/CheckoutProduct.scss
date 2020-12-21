@@ -5,6 +5,7 @@
 
 .checkout-product__info {
   margin-left: 20px;
+  font-size: 1.5vw;
 }
 
 .checkout-product__info > button {
@@ -26,6 +27,24 @@
 }
 
 .checkout-product__title {
-  font-size: 17px;
+  // font-size: 17px;
+  font-size: 1.6vw;
   font-weight: 800;
+}
+
+@media (max-width: 670px) {
+  .checkout-product {
+    flex-direction: column;
+  }
+  .checkout-product__image {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 530px) {
+  .checkout-product__title {
+    font-size: 9px;
+  }
+  .checkout-product__info {
+    font-size: 8px;
+  }
 }

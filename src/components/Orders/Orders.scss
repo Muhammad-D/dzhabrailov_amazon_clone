@@ -5,3 +5,9 @@
 .orders > h1 {
   margin: 30px 0;
 }
+
+@media (max-width: 500px) {
+  .orders {
+    padding: 25px;
+  }
+}

@@ -11,7 +11,7 @@ const Checkout = () => {
 
   return (
     <div className="checkout">
-      <div className="checkout___left">
+      <div className="checkout__left">
         <img src={amazonAdBanner} className="checkout__ad" alt="" />
         <div>
           <h3>Hello, {user?.email}</h3>
@@ -23,7 +23,7 @@ const Checkout = () => {
           })}
         </FlipMove>
       </div>
-      <div className="checkout___rights">
+      <div className="checkout__right">
         <Subtotal />
       </div>
     </div>
